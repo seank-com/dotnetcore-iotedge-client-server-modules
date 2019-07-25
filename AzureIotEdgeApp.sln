@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{34036844-64E7-43A5-9151-4AD90E180989}") = "AzureIotEdgeApp", "AzureIotEdgeApp\AzureIotEdgeApp.iotedgeproj", "{BF12D1C2-C484-4149-895A-1200B820DC20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorModule", "SensorModule\SensorModule.csproj", "{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorHubModule", "SensorHubModule\SensorHubModule.csproj", "{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF12D1C2-C484-4149-895A-1200B820DC20}.Release|x64.Build.0 = Release|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Debug|x64.Build.0 = Debug|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Release|x64.ActiveCfg = Release|Any CPU
+		{02A841D6-27FE-4AD1-BCE1-4BE5CF6B7567}.Release|x64.Build.0 = Release|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB11A3FF-7E59-4A01-8E38-0388C801BE2B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4EE094-4DB0-4870-9E07-C08EB010539B}
+	EndGlobalSection
+EndGlobal
